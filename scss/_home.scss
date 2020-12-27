@@ -1,0 +1,125 @@
+$colort:rgb(41, 18, 214);
+$ancho: 20px;
+
+
+
+header {
+	nav {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+}
+.menu {
+	display: flex;
+	justify-content: space-between;
+	a {
+		border-bottom: $ancho - 17px solid transparent;
+		text-decoration: none;
+		&:hover {
+			border-bottom: 3px solid red;
+		}
+	}
+}
+.nav {
+	a {
+		color:$colort;
+	}
+}
+.logo {
+	padding-bottom: 30px;
+	padding-top: $ancho / 1px;
+}
+body {
+	background-image: url("../imagenes/3254309.jpg");
+	height: 50vh;
+}
+.carousel {
+	display: flex;
+	justify-items: center;
+	position: 5px 5px 5px 5px;
+	margin: 20px 20px 20px 20px;
+	padding: 20px 20px 20px 20px;
+}
+.video1 {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	margin: 5px 500px 5px 5px;
+	width: 500px;
+}
+.contenedor {
+	max-width: 800px;
+	width: 90%;
+	margin: auto;
+}
+div {
+	.card {
+		padding: 5px;
+		display: flex;
+		align-items: center;
+		position: relative;
+		margin-bottom: 50px;
+		background-color: transparent;
+		border: 1px;
+	}
+}
+td {
+	color: rgb(148, 43, 43);
+}
+tr {
+	color:$colort;
+}
+ul {
+	li {
+		color: #2baba2;
+	}
+	color:$colort;
+}
+.imag3 {
+	width: 500px;
+	img {
+		width: 500px;
+		background-color: aliceblue;
+		margin: 5px 5px 5px 5px;
+		padding: 1px 1px 1px 1px;
+	}
+	&:hover {
+		transform: scale(1,1.5);
+	}
+}
+form {
+	width: 290px;
+}
+.formulario {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	margin: 10px;
+	padding: 100px 100px 100px 100px;
+}
+iframe {
+	width: 300px;
+	height: 300px;
+}
+.form-control {
+	width: 290px;
+}
+#validationMensaje {
+	width: 300px;
+	height: 50px;
+}
+footer {
+	background-image: linear-gradient(to left, black, grey);
+	 .sig{
+			position: relative;
+			padding: 20px;
+			display: flex;
+			justify-content:center;
+			align-items: center;
+	 }
+	 a {
+		 padding: 5px;
+	 }
+	
+}
